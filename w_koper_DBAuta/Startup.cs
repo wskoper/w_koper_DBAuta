@@ -50,7 +50,7 @@ namespace w_koper_DBAuta
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Auta}/{action=Index}/{id?}");
             });
         }
     }
