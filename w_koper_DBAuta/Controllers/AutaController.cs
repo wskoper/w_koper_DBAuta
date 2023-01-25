@@ -49,12 +49,12 @@ namespace w_koper_DBAuta
             return RedirectToAction("Index");
         }
 
-        public IActionResult Remove(AutaModel autaModel)
-        {
-            AutaManager autaManager = new AutaManager();
-            autaManager.RemoveAuto(1);
-            return RedirectToAction("Index");
-        }
+        //public IActionResult Remove(1)
+        //{
+        //   AutaManager autaManager = new AutaManager();
+        //    autaManager.RemoveAuto(1);
+        //    return RedirectToAction("Index");
+        //}
         public IActionResult GetA(AutaModel autaModel)
         {
             AutaManager autaManager = new AutaManager();
